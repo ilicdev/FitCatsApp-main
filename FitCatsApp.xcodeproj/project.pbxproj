@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3296452D4020CB00E2F82B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB3296442D4020CB00E2F82B /* GoogleService-Info.plist */; };
+		CBF10F032D82556800BCF6EB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CBF10F022D82556800BCF6EB /* FirebaseAuth */; };
+		CBF10F052D82556800BCF6EB /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = CBF10F042D82556800BCF6EB /* FirebaseCore */; };
+		CBF10F072D82556800BCF6EB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CBF10F062D82556800BCF6EB /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB578C032D1E21DE00D980CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB578BEA2D1E21DB00D980CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB578BF12D1E21DB00D980CE;
+			remoteInfo = FitCatsApp;
+		};
+		CB578C0D2D1E21DE00D980CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB578BEA2D1E21DB00D980CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB578BF12D1E21DB00D980CE;
+			remoteInfo = FitCatsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB3296442D4020CB00E2F82B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB578BF22D1E21DB00D980CE /* FitCatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitCatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB578C022D1E21DE00D980CE /* FitCatsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitCatsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB578C0C2D1E21DE00D980CE /* FitCatsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitCatsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CB578C4E2D1E293300D980CE /* Exceptions for "FitCatsApp" folder in "FitCatsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CB578BF12D1E21DB00D980CE /* FitCatsApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CB578BF42D1E21DB00D980CE /* FitCatsApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CB578C4E2D1E293300D980CE /* Exceptions for "FitCatsApp" folder in "FitCatsApp" target */,
+			);
+			path = FitCatsApp;
+			sourceTree = "<group>";
+		};
+		CB578C052D1E21DE00D980CE /* FitCatsAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitCatsAppTests;
+			sourceTree = "<group>";
+		};
+		CB578C0F2D1E21DE00D980CE /* FitCatsAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitCatsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB578BEF2D1E21DB00D980CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF10F052D82556800BCF6EB /* FirebaseCore in Frameworks */,
+				CBF10F032D82556800BCF6EB /* FirebaseAuth in Frameworks */,
+				CBF10F072D82556800BCF6EB /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB578BFF2D1E21DE00D980CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB578C092D1E21DE00D980CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0971CEC10135E1367A6F25F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB578BE92D1E21DB00D980CE = {
+			isa = PBXGroup;
+			children = (
+				CB578BF42D1E21DB00D980CE /* FitCatsApp */,
+				CB578C052D1E21DE00D980CE /* FitCatsAppTests */,
+				CB578C0F2D1E21DE00D980CE /* FitCatsAppUITests */,
+				CB578BF32D1E21DB00D980CE /* Products */,
+				0971CEC10135E1367A6F25F7 /* Frameworks */,
+				CB3296442D4020CB00E2F82B /* GoogleService-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		CB578BF32D1E21DB00D980CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB578BF22D1E21DB00D980CE /* FitCatsApp.app */,
+				CB578C022D1E21DE00D980CE /* FitCatsAppTests.xctest */,
+				CB578C0C2D1E21DE00D980CE /* FitCatsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB578BF12D1E21DB00D980CE /* FitCatsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB578C162D1E21DE00D980CE /* Build configuration list for PBXNativeTarget "FitCatsApp" */;
+			buildPhases = (
+				CB578BEE2D1E21DB00D980CE /* Sources */,
+				CB578BEF2D1E21DB00D980CE /* Frameworks */,
+				CB578BF02D1E21DB00D980CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CB578BF42D1E21DB00D980CE /* FitCatsApp */,
+			);
+			name = FitCatsApp;
+			productName = FitCatsApp;
+			productReference = CB578BF22D1E21DB00D980CE /* FitCatsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB578C012D1E21DE00D980CE /* FitCatsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB578C192D1E21DE00D980CE /* Build configuration list for PBXNativeTarget "FitCatsAppTests" */;
+			buildPhases = (
+				D643950119DAD74D60D3C2D0 /* [CP] Check Pods Manifest.lock */,
+				CB578BFE2D1E21DE00D980CE /* Sources */,
+				CB578BFF2D1E21DE00D980CE /* Frameworks */,
+				CB578C002D1E21DE00D980CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB578C042D1E21DE00D980CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CB578C052D1E21DE00D980CE /* FitCatsAppTests */,
+			);
+			name = FitCatsAppTests;
+			productName = FitCatsAppTests;
+			productReference = CB578C022D1E21DE00D980CE /* FitCatsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB578C0B2D1E21DE00D980CE /* FitCatsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB578C1C2D1E21DE00D980CE /* Build configuration list for PBXNativeTarget "FitCatsAppUITests" */;
+			buildPhases = (
+				D947697D8C7878DC7744A754 /* [CP] Check Pods Manifest.lock */,
+				CB578C082D1E21DE00D980CE /* Sources */,
+				CB578C092D1E21DE00D980CE /* Frameworks */,
+				CB578C0A2D1E21DE00D980CE /* Resources */,
+				9336605497D4DB44BFEA2CB0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB578C0E2D1E21DE00D980CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CB578C0F2D1E21DE00D980CE /* FitCatsAppUITests */,
+			);
+			name = FitCatsAppUITests;
+			productName = FitCatsAppUITests;
+			productReference = CB578C0C2D1E21DE00D980CE /* FitCatsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB578BEA2D1E21DB00D980CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CB578BF12D1E21DB00D980CE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CB578C012D1E21DE00D980CE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CB578BF12D1E21DB00D980CE;
+					};
+					CB578C0B2D1E21DE00D980CE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CB578BF12D1E21DB00D980CE;
+					};
+				};
+			};
+			buildConfigurationList = CB578BED2D1E21DB00D980CE /* Build configuration list for PBXProject "FitCatsApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB578BE92D1E21DB00D980CE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CBF10F012D82556800BCF6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CB578BF32D1E21DB00D980CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB578BF12D1E21DB00D980CE /* FitCatsApp */,
+				CB578C012D1E21DE00D980CE /* FitCatsAppTests */,
+				CB578C0B2D1E21DE00D980CE /* FitCatsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB578BF02D1E21DB00D980CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3296452D4020CB00E2F82B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB578C002D1E21DE00D980CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB578C0A2D1E21DE00D980CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9336605497D4DB44BFEA2CB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitCatsApp-FitCatsAppUITests/Pods-FitCatsApp-FitCatsAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitCatsApp-FitCatsAppUITests/Pods-FitCatsApp-FitCatsAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitCatsApp-FitCatsAppUITests/Pods-FitCatsApp-FitCatsAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D643950119DAD74D60D3C2D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitCatsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D947697D8C7878DC7744A754 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitCatsApp-FitCatsAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB578BEE2D1E21DB00D980CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB578BFE2D1E21DE00D980CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB578C082D1E21DE00D980CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB578C042D1E21DE00D980CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB578BF12D1E21DB00D980CE /* FitCatsApp */;
+			targetProxy = CB578C032D1E21DE00D980CE /* PBXContainerItemProxy */;
+		};
+		CB578C0E2D1E21DE00D980CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB578BF12D1E21DB00D980CE /* FitCatsApp */;
+			targetProxy = CB578C0D2D1E21DE00D980CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB578C142D1E21DE00D980CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB578C152D1E21DE00D980CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB578C172D1E21DE00D980CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitCatsApp/FitCatsApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitCatsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 437XH2568Z;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitCatsApp/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Aplikacija koristi podatke o zdravlju kako bi pratila vaše korake ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Aplikacija može dodavati podatke o vašim fizičkim aktivnostima u HealthKit.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milosIlic.fitCatsApp.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB578C182D1E21DE00D980CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitCatsApp/FitCatsApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitCatsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 437XH2568Z;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitCatsApp/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Aplikacija koristi podatke o zdravlju kako bi pratila vaše korake ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Aplikacija može dodavati podatke o vašim fizičkim aktivnostima u HealthKit.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milosIlic.fitCatsApp.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB578C1A2D1E21DE00D980CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasalipur.FitCatsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitCatsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitCatsApp";
+			};
+			name = Debug;
+		};
+		CB578C1B2D1E21DE00D980CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasalipur.FitCatsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitCatsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitCatsApp";
+			};
+			name = Release;
+		};
+		CB578C1D2D1E21DE00D980CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasalipur.FitCatsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitCatsApp;
+			};
+			name = Debug;
+		};
+		CB578C1E2D1E21DE00D980CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasalipur.FitCatsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitCatsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB578BED2D1E21DB00D980CE /* Build configuration list for PBXProject "FitCatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB578C142D1E21DE00D980CE /* Debug */,
+				CB578C152D1E21DE00D980CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB578C162D1E21DE00D980CE /* Build configuration list for PBXNativeTarget "FitCatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB578C172D1E21DE00D980CE /* Debug */,
+				CB578C182D1E21DE00D980CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB578C192D1E21DE00D980CE /* Build configuration list for PBXNativeTarget "FitCatsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB578C1A2D1E21DE00D980CE /* Debug */,
+				CB578C1B2D1E21DE00D980CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB578C1C2D1E21DE00D980CE /* Build configuration list for PBXNativeTarget "FitCatsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB578C1D2D1E21DE00D980CE /* Debug */,
+				CB578C1E2D1E21DE00D980CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CBF10F012D82556800BCF6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBF10F022D82556800BCF6EB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBF10F012D82556800BCF6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CBF10F042D82556800BCF6EB /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBF10F012D82556800BCF6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		CBF10F062D82556800BCF6EB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBF10F012D82556800BCF6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CB578BEA2D1E21DB00D980CE /* Project object */;
+}
